@@ -26,7 +26,7 @@ class User():
     def account_exist(cls,number):
         for user in cls.user_details:
             if user.username==number:
-                return True;
+                return True
         return False
     
     @classmethod
@@ -35,7 +35,8 @@ class User():
 
 class Password():
     def __init__(self,ranPassword):
-         self.ranPassword=ranPassword
+        self.ranPassword=ranPassword
+        
     def generatePassword():
         password="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789)(*&^%$#@!)"
         return password
