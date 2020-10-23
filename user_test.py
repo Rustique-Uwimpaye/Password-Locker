@@ -17,7 +17,7 @@ class UserTest(unittest.TestCase):
         self.assertEqual(self.user_details.password,"uwimpaye250")
         self.assertEqual(self.user_details.email,"rustique@gmail.com")
     def test_register(self):
-        self.user_details.register();
+        self.user_details.register()
         self.assertEqual(len(User.user_details),1)
     def test_save_user_details(self):
         self.user_details.register()
@@ -38,9 +38,8 @@ class UserTest(unittest.TestCase):
         test_userDetails=User("Test","user","gmail.com")
         test_userDetails.register()
 
-        found_account=User.find_by_accountName("Test");
+        found_account=User.find_by_accountName("Test")
         self.assertEqual(found_account.username,test_userDetails.username)
-
     '''
     method to check if account exist
     '''
