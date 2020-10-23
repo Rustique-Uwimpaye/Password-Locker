@@ -27,4 +27,4 @@ Incase of anything or you want to contribute email me here rustique644@gmail.com
 
 ## License
 * MIT License <br>
-* Copyright © 2020 | Rustique Uwimpaye
+* Copyright © 2020|Rustique Uwimpaye
